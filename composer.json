@@ -15,8 +15,9 @@
         "cweagans/composer-patches": "dev-main",
         "drupal/core-composer-scaffold": "^10",
         "drupal/core-recommended": "^10",
-        "drush/drush": "12.x-dev",
-        "oomphinc/composer-installers-extender": "dev-master"
+        "drush/drush": "11.x-dev",
+        "oomphinc/composer-installers-extender": "dev-master",
+        "genero/kamihaya_cms": "dev-master"
     },
     "require-dev": {
         "acquia/coding-standards": "^2.0.0",
@@ -31,7 +32,7 @@
         "composer-exit-on-patch-failure": true,
         "drupal-scaffold": {
             "allowed-packages": [
-                "HappySeedIndia/kamihaya"
+                "HappySeedIndia/kamihaya_cms"
             ],
             "file-mapping": {
                 "[profile-root]/.editorconfig": false,
@@ -50,7 +51,7 @@
             },
             "gitignore": true,
             "locations": {
-                "profile-root": "web/profiles/contrib/kamihaya",
+                "profile-root": "web/profiles/contrib/kamihaya_cms",
                 "web-root": "web/"
             }
         },
@@ -96,6 +97,10 @@
         "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        "github": {
+            "type": "vcs",
+            "url": "git@github.com:HappySeedIndia/kamihaya_cms.git"
         }
     },
     "minimum-stability": "dev",
@@ -112,7 +117,8 @@
             "composer/installers": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "oomphinc/composer-installers-extender": true,
-            "phpstan/extension-installer": true
+            "phpstan/extension-installer": true,
+            "php-http/discovery": true
         }
     }
 }
