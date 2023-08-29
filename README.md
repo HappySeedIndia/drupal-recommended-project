@@ -3,4 +3,4 @@
 
 ## Installation
 
-`composer create-project --no-interaction HappySeedIndia/drupal-recommended-project`
+`composer create-project genero/drupal-recommended-project`
