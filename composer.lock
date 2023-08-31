@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "21ffaebf7352a944aeacdae425941276",
+    "content-hash": "2a256676856b2f2b2d782ede3e013a00",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3935,6 +3935,66 @@
             }
         },
         {
+            "name": "drupal/responsive_preview",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/responsive_preview.git",
+                "reference": "2.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/responsive_preview-2.1.1.zip",
+                "reference": "2.1.1",
+                "shasum": "cfc9599aaf3d6cd60ffd4c90c3cc2933c103bc2c"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.1.1",
+                    "datestamp": "1687782148",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "chr.fritsch",
+                    "homepage": "https://www.drupal.org/user/2103716"
+                },
+                {
+                    "name": "eatings",
+                    "homepage": "https://www.drupal.org/user/105524"
+                },
+                {
+                    "name": "jessebeach",
+                    "homepage": "https://www.drupal.org/user/748566"
+                },
+                {
+                    "name": "Rajeshreeputra",
+                    "homepage": "https://www.drupal.org/user/3418561"
+                },
+                {
+                    "name": "willzyx",
+                    "homepage": "https://www.drupal.org/user/1043862"
+                }
+            ],
+            "description": "Provides a component that previews a page in various device dimensions.",
+            "homepage": "https://www.drupal.org/project/responsive_preview",
+            "support": {
+                "source": "https://git.drupalcode.org/project/responsive_preview"
+            }
+        },
+        {
             "name": "drupal/rigel",
             "version": "6.0.6",
             "source": {
@@ -5125,16 +5185,16 @@
         },
         {
             "name": "genero/kamihaya_cms",
-            "version": "dev-master",
+            "version": "1.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/HappySeedIndia/kamihaya_cms.git",
-                "reference": "a945e43b8427a7d7fa576c03392acbf4345832b9"
+                "reference": "876c73dcd0fa31cee95f25fb2f88e86c9e3646bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/a945e43b8427a7d7fa576c03392acbf4345832b9",
-                "reference": "a945e43b8427a7d7fa576c03392acbf4345832b9",
+                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/876c73dcd0fa31cee95f25fb2f88e86c9e3646bd",
+                "reference": "876c73dcd0fa31cee95f25fb2f88e86c9e3646bd",
                 "shasum": ""
             },
             "require": {
@@ -5154,6 +5214,7 @@
                 "drupal/pathauto": "^1.11",
                 "drupal/recreate_block_content": "^3.0",
                 "drupal/redirect": "^1.8",
+                "drupal/responsive_preview": "^2.1",
                 "drupal/scheduler": "^2.0",
                 "drupal/seckit": "^2.0",
                 "drupal/select_or_other": "^4.1",
@@ -5162,7 +5223,6 @@
                 "drupal/webform": "^6.1",
                 "drupal/xmlsitemap": "^1.5"
             },
-            "default-branch": true,
             "type": "drupal-profile",
             "extra": {
                 "drupal-scaffold": {
@@ -5227,7 +5287,7 @@
                 "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/master",
                 "issues": "https://github.com/HappySeedIndia/kamihaya_cms/issues"
             },
-            "time": "2023-08-28T05:40:38+00:00"
+            "time": "2023-08-29T12:54:57+00:00"
         },
         {
             "name": "geocoder-php/common-http",
@@ -14540,8 +14600,7 @@
         "composer/installers": 20,
         "cweagans/composer-patches": 20,
         "drush/drush": 20,
-        "oomphinc/composer-installers-extender": 20,
-        "genero/kamihaya_cms": 20
+        "oomphinc/composer-installers-extender": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
