@@ -17,7 +17,7 @@
         "drupal/core-recommended": "^10",
         "drush/drush": "11.x-dev",
         "oomphinc/composer-installers-extender": "dev-master",
-        "genero/kamihaya_cms": "^1.2"
+        "genero/kamihaya_cms": "^1.4"
     },
     "require-dev": {
         "acquia/coding-standards": "^2.0.0",
@@ -101,6 +101,10 @@
         "github": {
             "type": "vcs",
             "url": "git@github.com:HappySeedIndia/kamihaya_cms.git"
+        },
+        "asset-packagist": {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
         }
     },
     "minimum-stability": "dev",
