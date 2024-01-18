@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a4ff9cf8f63859de491e0f9748df5340",
+    "content-hash": "390214c27042111497e09200f92d9562",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -216,7 +216,7 @@
             "version": "3.6.4",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jquery/jquery-dist.git",
+                "url": "https://github.com/jquery/jquery-dist.git",
                 "reference": "91ef2d8836342875f2519b5815197ea0f23613cf"
             },
             "dist": {
@@ -2357,16 +2357,8 @@
                     "homepage": "https://www.drupal.org/user/46549"
                 },
                 {
-                    "name": "googletorp",
-                    "homepage": "https://www.drupal.org/user/386230"
-                },
-                {
                     "name": "jsacksick",
                     "homepage": "https://www.drupal.org/user/972218"
-                },
-                {
-                    "name": "mglaman",
-                    "homepage": "https://www.drupal.org/user/2416470"
                 },
                 {
                     "name": "rszrama",
@@ -2952,6 +2944,10 @@
                     "homepage": "https://www.drupal.org/user/2138470"
                 },
                 {
+                    "name": "danrod",
+                    "homepage": "https://www.drupal.org/user/19150"
+                },
+                {
                     "name": "darol100",
                     "homepage": "https://www.drupal.org/user/2667123"
                 },
@@ -2960,8 +2956,20 @@
                     "homepage": "https://www.drupal.org/user/909522"
                 },
                 {
+                    "name": "galactus86",
+                    "homepage": "https://www.drupal.org/user/1203916"
+                },
+                {
                     "name": "kevinquillen",
                     "homepage": "https://www.drupal.org/user/317279"
+                },
+                {
+                    "name": "steyep",
+                    "homepage": "https://www.drupal.org/user/3289085"
+                },
+                {
+                    "name": "web247",
+                    "homepage": "https://www.drupal.org/user/176346"
                 },
                 {
                     "name": "Webbeh",
@@ -3240,20 +3248,12 @@
             ],
             "authors": [
                 {
-                    "name": "bojanz",
-                    "homepage": "https://www.drupal.org/user/86106"
-                },
-                {
                     "name": "Centarro",
                     "homepage": "https://www.drupal.org/user/3661446"
                 },
                 {
                     "name": "jsacksick",
                     "homepage": "https://www.drupal.org/user/972218"
-                },
-                {
-                    "name": "mglaman",
-                    "homepage": "https://www.drupal.org/user/2416470"
                 },
                 {
                     "name": "rszrama",
@@ -4823,10 +4823,6 @@
                     "homepage": "https://www.drupal.org/user/471638"
                 },
                 {
-                    "name": "podarok",
-                    "homepage": "https://www.drupal.org/user/116002"
-                },
-                {
                     "name": "ram4nd",
                     "homepage": "https://www.drupal.org/user/601534"
                 },
@@ -5925,6 +5921,10 @@
                     "homepage": "https://www.drupal.org/node/147903/committers"
                 },
                 {
+                    "name": "diolan",
+                    "homepage": "https://www.drupal.org/user/2336786"
+                },
+                {
                     "name": "hass",
                     "homepage": "https://www.drupal.org/user/85918"
                 },
@@ -5935,6 +5935,10 @@
                 {
                     "name": "kim.pepper",
                     "homepage": "https://www.drupal.org/user/370574"
+                },
+                {
+                    "name": "larowlan",
+                    "homepage": "https://www.drupal.org/user/395439"
                 },
                 {
                     "name": "Liam Morland",
@@ -5949,12 +5953,12 @@
                     "homepage": "https://www.drupal.org/user/61114"
                 },
                 {
-                    "name": "soxofaan",
-                    "homepage": "https://www.drupal.org/user/41478"
-                },
-                {
                     "name": "wundo",
                     "homepage": "https://www.drupal.org/user/25523"
+                },
+                {
+                    "name": "yuriseki",
+                    "homepage": "https://www.drupal.org/user/1523064"
                 }
             ],
             "description": "Protect your website from spam and abuse while letting real people pass through with ease.",
@@ -17368,12 +17372,12 @@
             "version": "3.7.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
+                "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
                 "reference": "ed8e00df0a83aa96acf703f8c2979ff33341f879"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/ed8e00df0a83aa96acf703f8c2979ff33341f879",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/ed8e00df0a83aa96acf703f8c2979ff33341f879",
                 "reference": "ed8e00df0a83aa96acf703f8c2979ff33341f879",
                 "shasum": ""
             },
@@ -17418,6 +17422,20 @@
                 "source": "https://github.com/squizlabs/PHP_CodeSniffer",
                 "wiki": "https://github.com/squizlabs/PHP_CodeSniffer/wiki"
             },
+            "funding": [
+                {
+                    "url": "https://github.com/PHPCSStandards",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/jrfnl",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/php_codesniffer",
+                    "type": "open_collective"
+                }
+            ],
             "time": "2023-02-22T23:07:41+00:00"
         },
         {
