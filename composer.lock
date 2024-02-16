@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a1f8a3ab3488a7fc8dd9bba3833a7e57",
+    "content-hash": "634fcd18a3f2352f7827ca1222f12060",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -7962,16 +7962,16 @@
         },
         {
             "name": "genero/kamihaya_cms",
-            "version": "1.10.0",
+            "version": "1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/HappySeedIndia/kamihaya_cms.git",
-                "reference": "21156de4b68fc16af73d85d6d45428c0928779bd"
+                "reference": "87ea7a17446309e18c956739151ef223dc47a9c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/21156de4b68fc16af73d85d6d45428c0928779bd",
-                "reference": "21156de4b68fc16af73d85d6d45428c0928779bd",
+                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/87ea7a17446309e18c956739151ef223dc47a9c5",
+                "reference": "87ea7a17446309e18c956739151ef223dc47a9c5",
                 "shasum": ""
             },
             "require": {
@@ -8011,7 +8011,7 @@
                 "drupal/quick_node_clone": "^1.16",
                 "drupal/recaptcha": "^3.2",
                 "drupal/recreate_block_content": "^3.0",
-                "drupal/redirect": "^1.8",
+                "drupal/redirect": "^1.9",
                 "drupal/responsive_preview": "^2.1",
                 "drupal/scheduled_transitions": "^2.3",
                 "drupal/scheduler": "^2.0",
@@ -8090,10 +8090,10 @@
             ],
             "description": "A distribution for managing sites with less custom configurations.",
             "support": {
-                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.10.0",
+                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.11.0",
                 "issues": "https://github.com/HappySeedIndia/kamihaya_cms/issues"
             },
-            "time": "2024-02-01T18:35:53+00:00"
+            "time": "2024-02-16T11:31:32+00:00"
         },
         {
             "name": "geocoder-php/common-http",
