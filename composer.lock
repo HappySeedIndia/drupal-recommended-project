@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "634fcd18a3f2352f7827ca1222f12060",
+    "content-hash": "7fbe50d0bb2ebbcc1c535dcc094f6384",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4010,6 +4010,67 @@
             }
         },
         {
+            "name": "drupal/editoria11y",
+            "version": "2.1.8",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/editoria11y.git",
+                "reference": "2.1.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/editoria11y-2.1.8.zip",
+                "reference": "2.1.8",
+                "shasum": "6ec91608cb6cd0db75a9a9bd8681616080cb8e76"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.1.8",
+                    "datestamp": "1707937463",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "John Jameson",
+                    "homepage": "https://www.drupal.org/u/itmaybejj",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Brian Osborne",
+                    "homepage": "https://www.drupal.org/u/bkosborne",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Jason Partyka",
+                    "homepage": "https://www.drupal.org/u/partyka",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "See other contributors",
+                    "homepage": "https://www.drupal.org/node/3187132/committers",
+                    "role": "contributor"
+                }
+            ],
+            "description": "Editoria11y (\"editorial accessibility\") is a user-friendly accessibility checker.",
+            "homepage": "http://drupal.org/project/editoria11y",
+            "support": {
+                "source": "https://git.drupalcode.org/project/editoria11y",
+                "issues": "http://drupal.org/project/issues/editoria11y"
+            }
+        },
+        {
             "name": "drupal/encrypt",
             "version": "3.1.0",
             "source": {
@@ -7962,16 +8023,16 @@
         },
         {
             "name": "genero/kamihaya_cms",
-            "version": "1.11.0",
+            "version": "1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/HappySeedIndia/kamihaya_cms.git",
-                "reference": "87ea7a17446309e18c956739151ef223dc47a9c5"
+                "reference": "caf90cfaf152e73c2d94176667e6591e6cb17119"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/87ea7a17446309e18c956739151ef223dc47a9c5",
-                "reference": "87ea7a17446309e18c956739151ef223dc47a9c5",
+                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/caf90cfaf152e73c2d94176667e6591e6cb17119",
+                "reference": "caf90cfaf152e73c2d94176667e6591e6cb17119",
                 "shasum": ""
             },
             "require": {
@@ -7993,6 +8054,7 @@
                 "drupal/content_access": "^2.0",
                 "drupal/default_content": "^2.0@alpha",
                 "drupal/diff": "^1.1",
+                "drupal/editoria11y": "^2.1",
                 "drupal/entity_browser": "^2.9",
                 "drupal/eu_cookie_compliance": "^1.24",
                 "drupal/externalauth": "^2.0",
@@ -8090,10 +8152,10 @@
             ],
             "description": "A distribution for managing sites with less custom configurations.",
             "support": {
-                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.11.0",
+                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.12.0",
                 "issues": "https://github.com/HappySeedIndia/kamihaya_cms/issues"
             },
-            "time": "2024-02-16T11:31:32+00:00"
+            "time": "2024-03-01T10:47:09+00:00"
         },
         {
             "name": "geocoder-php/common-http",
