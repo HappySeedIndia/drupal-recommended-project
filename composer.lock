@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "45b30d6df812241d504f203d8aed17e4",
+    "content-hash": "24fba263ad0cb50230206506d1e7a756",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5687,6 +5687,50 @@
             }
         },
         {
+            "name": "drupal/open_ai_metadata",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/open_ai_metadata.git",
+                "reference": "2.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/open_ai_metadata-2.0.0.zip",
+                "reference": "2.0.0",
+                "shasum": "09ebdcc364e7bc08e5b8738f073c04869afe87cc"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0",
+                    "datestamp": "1702305116",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "vinaymahale",
+                    "homepage": "https://www.drupal.org/user/3680816"
+                }
+            ],
+            "description": "Provides integration with OpenAI to generate meta data for content types.",
+            "homepage": "https://www.drupal.org/project/open_ai_metadata",
+            "support": {
+                "source": "https://git.drupalcode.org/project/open_ai_metadata"
+            }
+        },
+        {
             "name": "drupal/openai",
             "version": "1.0.0-beta4",
             "source": {
@@ -8154,16 +8198,16 @@
         },
         {
             "name": "genero/kamihaya_cms",
-            "version": "1.16.0",
+            "version": "1.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/HappySeedIndia/kamihaya_cms.git",
-                "reference": "cc8d8a394afb85c5033cfd3e25679b8e8bd86c2d"
+                "reference": "5ccab82d3e7f6995190d5b078ff1ad26fa60d5c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/cc8d8a394afb85c5033cfd3e25679b8e8bd86c2d",
-                "reference": "cc8d8a394afb85c5033cfd3e25679b8e8bd86c2d",
+                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/5ccab82d3e7f6995190d5b078ff1ad26fa60d5c5",
+                "reference": "5ccab82d3e7f6995190d5b078ff1ad26fa60d5c5",
                 "shasum": ""
             },
             "require": {
@@ -8199,6 +8243,7 @@
                 "drupal/miniorange_saml": "^3.0",
                 "drupal/moderation_dashboard": "^2.1",
                 "drupal/new_relic_rpm": "^2.1",
+                "drupal/open_ai_metadata": "^2.0",
                 "drupal/openai": "^1.0@beta",
                 "drupal/paragraphs": "^1.15",
                 "drupal/password_policy": "^4.0",
@@ -8285,10 +8330,10 @@
             ],
             "description": "A distribution for managing sites with less custom configurations.",
             "support": {
-                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.16.0",
+                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.17.0",
                 "issues": "https://github.com/HappySeedIndia/kamihaya_cms/issues"
             },
-            "time": "2024-05-02T09:30:03+00:00"
+            "time": "2024-05-22T09:34:53+00:00"
         },
         {
             "name": "geocoder-php/common-http",
