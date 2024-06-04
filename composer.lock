@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "24fba263ad0cb50230206506d1e7a756",
+    "content-hash": "bfae15870f82f00231f522ee1ccae0d2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2438,6 +2438,58 @@
             "homepage": "http://drupal.org/project/address",
             "support": {
                 "source": "https://git.drupalcode.org/project/address"
+            }
+        },
+        {
+            "name": "drupal/addtoany",
+            "version": "2.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/addtoany.git",
+                "reference": "2.0.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/addtoany-2.0.5.zip",
+                "reference": "2.0.5",
+                "shasum": "b3b26968548c1605a641b12ff25d03edc8497df6"
+            },
+            "require": {
+                "drupal/core": "^9.4 || ^10.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.5",
+                    "datestamp": "1698825601",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "AddToAny",
+                    "homepage": "https://www.drupal.org/user/2640913"
+                },
+                {
+                    "name": "micropat",
+                    "homepage": "https://www.drupal.org/user/260224"
+                }
+            ],
+            "description": "Share buttons for Drupal including the AddToAny universal share button, Facebook, Mastodon, Pinterest, WhatsApp and many more.",
+            "homepage": "https://www.drupal.org/project/addtoany",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/addtoany",
+                "issues": "https://www.drupal.org/project/issues/addtoany"
             }
         },
         {
@@ -8198,16 +8250,16 @@
         },
         {
             "name": "genero/kamihaya_cms",
-            "version": "1.17.0",
+            "version": "1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/HappySeedIndia/kamihaya_cms.git",
-                "reference": "5ccab82d3e7f6995190d5b078ff1ad26fa60d5c5"
+                "reference": "5837e56239d6c89791d22dc3596652ea2c962f22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/5ccab82d3e7f6995190d5b078ff1ad26fa60d5c5",
-                "reference": "5ccab82d3e7f6995190d5b078ff1ad26fa60d5c5",
+                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/5837e56239d6c89791d22dc3596652ea2c962f22",
+                "reference": "5837e56239d6c89791d22dc3596652ea2c962f22",
                 "shasum": ""
             },
             "require": {
@@ -8216,6 +8268,7 @@
                 "drupal-ckeditor-libraries-group/panelbutton": "^4.22",
                 "drupal/acquia_dam": "^1.0",
                 "drupal/address": "^1.12",
+                "drupal/addtoany": "^2.0",
                 "drupal/admin_toolbar": "^3.4",
                 "drupal/back_to_top": "^3.0",
                 "drupal/better_exposed_filters": "^6.0",
@@ -8330,10 +8383,10 @@
             ],
             "description": "A distribution for managing sites with less custom configurations.",
             "support": {
-                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.17.0",
+                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.18.0",
                 "issues": "https://github.com/HappySeedIndia/kamihaya_cms/issues"
             },
-            "time": "2024-05-22T09:34:53+00:00"
+            "time": "2024-06-04T01:09:18+00:00"
         },
         {
             "name": "geocoder-php/common-http",
