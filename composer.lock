@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ed3a9e2812ba50201330435bac4a3b44",
+    "content-hash": "71d57b6b1b1768d163a6141fe5284137",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -8728,16 +8728,16 @@
         },
         {
             "name": "genero/kamihaya_cms",
-            "version": "1.21.0",
+            "version": "1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/HappySeedIndia/kamihaya_cms.git",
-                "reference": "830c50cb027448ecb0f2342e7b2ed4f3dfbfc2e1"
+                "reference": "a97ceebf8b244c435f1ed21ad78fcf6e948404e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/830c50cb027448ecb0f2342e7b2ed4f3dfbfc2e1",
-                "reference": "830c50cb027448ecb0f2342e7b2ed4f3dfbfc2e1",
+                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/a97ceebf8b244c435f1ed21ad78fcf6e948404e8",
+                "reference": "a97ceebf8b244c435f1ed21ad78fcf6e948404e8",
                 "shasum": ""
             },
             "require": {
@@ -8867,10 +8867,10 @@
             ],
             "description": "A distribution for managing sites with less custom configurations.",
             "support": {
-                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.21.0",
+                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.22.0",
                 "issues": "https://github.com/HappySeedIndia/kamihaya_cms/issues"
             },
-            "time": "2024-07-17T03:47:56+00:00"
+            "time": "2024-07-30T15:38:56+00:00"
         },
         {
             "name": "geocoder-php/common-http",
