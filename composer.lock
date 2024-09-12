@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "61a4918dd3518aab075b9e078c8d73d8",
+    "content-hash": "aab0ebec3a7c16a5ce72244ca01a61fc",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2721,6 +2721,73 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/better_exposed_filters",
                 "issues": "https://www.drupal.org/project/issues/better_exposed_filters"
+            }
+        },
+        {
+            "name": "drupal/blazy",
+            "version": "3.0.10",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/blazy.git",
+                "reference": "3.0.10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/blazy-3.0.10.zip",
+                "reference": "3.0.10",
+                "shasum": "8887721c80b9faac7350af4723aae6fb0ffa6927"
+            },
+            "require": {
+                "drupal/core": ">=9.4"
+            },
+            "conflict": {
+                "drupal/csp": "<1.12"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.10",
+                    "datestamp": "1723362697",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Gaus Surahman",
+                    "homepage": "https://www.drupal.org/u/gausarts",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://www.drupal.org/node/2663268/committers",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "geek-merlin",
+                    "homepage": "https://www.drupal.org/user/229048"
+                },
+                {
+                    "name": "sun",
+                    "homepage": "https://www.drupal.org/user/54136"
+                }
+            ],
+            "description": "Provides basic bLazy integration for lazy loading and multi-serving images.",
+            "homepage": "https://drupal.org/project/blazy",
+            "keywords": [
+                "Drupal",
+                "bLazy",
+                "lazyload"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/blazy",
+                "issues": "https://drupal.org/project/issues/blazy"
             }
         },
         {
@@ -7307,6 +7374,66 @@
             }
         },
         {
+            "name": "drupal/slick",
+            "version": "3.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/slick.git",
+                "reference": "3.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/slick-3.0.3.zip",
+                "reference": "3.0.3",
+                "shasum": "be22330dd9f070521d9dcc01f441d9df7c48a288"
+            },
+            "require": {
+                "drupal/blazy": "^3.0",
+                "drupal/core": ">=9.4"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.3",
+                    "datestamp": "1723362744",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Contributors",
+                    "homepage": "https://www.drupal.org/node/2232779/committers",
+                    "role": "Contributors"
+                },
+                {
+                    "name": "shadcn",
+                    "homepage": "https://www.drupal.org/user/571032"
+                },
+                {
+                    "name": "thalles",
+                    "homepage": "https://www.drupal.org/user/3589086"
+                }
+            ],
+            "description": "Slick carousel, the last carousel you'll ever need.",
+            "homepage": "https://drupal.org/project/slick",
+            "keywords": [
+                "Drupal",
+                "carousel",
+                "slideshow"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/slick",
+                "issues": "https://drupal.org/project/issues/slick"
+            }
+        },
+        {
             "name": "drupal/smtp",
             "version": "1.4.0",
             "source": {
@@ -8754,16 +8881,16 @@
         },
         {
             "name": "genero/kamihaya_cms",
-            "version": "1.24.0",
+            "version": "1.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/HappySeedIndia/kamihaya_cms.git",
-                "reference": "d1a95aa89ede0fe09e2275b1b4f35a7059ab3a99"
+                "reference": "00db5df6ded65c846b5ced485aff002d8982b8ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/d1a95aa89ede0fe09e2275b1b4f35a7059ab3a99",
-                "reference": "d1a95aa89ede0fe09e2275b1b4f35a7059ab3a99",
+                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/00db5df6ded65c846b5ced485aff002d8982b8ab",
+                "reference": "00db5df6ded65c846b5ced485aff002d8982b8ab",
                 "shasum": ""
             },
             "require": {
@@ -8776,6 +8903,7 @@
                 "drupal/admin_toolbar": "^3.4",
                 "drupal/back_to_top": "^3.0",
                 "drupal/better_exposed_filters": "^6.0",
+                "drupal/blazy": "^3.0",
                 "drupal/block_field": "^1.0@RC",
                 "drupal/bootstrap5": "^3.0",
                 "drupal/ckeditor_bs_grid": "^2.0",
@@ -8820,6 +8948,7 @@
                 "drupal/select_or_other": "^4.1",
                 "drupal/shield": "^1.7",
                 "drupal/shs": "^2.0@RC",
+                "drupal/slick": "^3.0",
                 "drupal/smtp": "^1.2",
                 "drupal/string_field_formatter": "^2.0",
                 "drupal/svg_image": "^3.0",
@@ -8893,10 +9022,10 @@
             ],
             "description": "A distribution for managing sites with less custom configurations.",
             "support": {
-                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.24.0",
+                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.25.0",
                 "issues": "https://github.com/HappySeedIndia/kamihaya_cms/issues"
             },
-            "time": "2024-08-22T07:45:07+00:00"
+            "time": "2024-09-12T06:43:51+00:00"
         },
         {
             "name": "geocoder-php/common-http",
