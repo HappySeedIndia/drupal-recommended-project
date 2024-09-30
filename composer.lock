@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aab0ebec3a7c16a5ce72244ca01a61fc",
+    "content-hash": "52d30569a4f6798b9180e26eaaa3555a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1576,100 +1576,30 @@
             "time": "2024-04-06T00:00:28+00:00"
         },
         {
-            "name": "cweagans/composer-configurable-plugin",
-            "version": "2.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cweagans/composer-configurable-plugin.git",
-                "reference": "15433906511a108a1806710e988629fd24b89974"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cweagans/composer-configurable-plugin/zipball/15433906511a108a1806710e988629fd24b89974",
-                "reference": "15433906511a108a1806710e988629fd24b89974",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.0.0"
-            },
-            "require-dev": {
-                "codeception/codeception": "~4.0",
-                "codeception/module-asserts": "^2.0",
-                "composer/composer": "~2.0",
-                "php-coveralls/php-coveralls": "~2.0",
-                "php-parallel-lint/php-parallel-lint": "^1.0.0",
-                "phpro/grumphp": "^1.8.0",
-                "sebastian/phpcpd": "^6.0",
-                "squizlabs/php_codesniffer": "^3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "cweagans\\Composer\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Cameron Eagans",
-                    "email": "me@cweagans.net"
-                }
-            ],
-            "description": "Provides a lightweight configuration system for Composer plugins.",
-            "support": {
-                "issues": "https://github.com/cweagans/composer-configurable-plugin/issues",
-                "source": "https://github.com/cweagans/composer-configurable-plugin/tree/2.0.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/cweagans",
-                    "type": "github"
-                }
-            ],
-            "time": "2023-02-12T04:58:58+00:00"
-        },
-        {
             "name": "cweagans/composer-patches",
-            "version": "dev-main",
+            "version": "1.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cweagans/composer-patches.git",
-                "reference": "6e3dbd12db5003bc2d9d3e58a16efe337bf21ba6"
+                "reference": "e190d4466fe2b103a55467dfa83fc2fecfcaf2db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/6e3dbd12db5003bc2d9d3e58a16efe337bf21ba6",
-                "reference": "6e3dbd12db5003bc2d9d3e58a16efe337bf21ba6",
+                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/e190d4466fe2b103a55467dfa83fc2fecfcaf2db",
+                "reference": "e190d4466fe2b103a55467dfa83fc2fecfcaf2db",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^2.0",
-                "cweagans/composer-configurable-plugin": "^2.0",
-                "ext-json": "*",
-                "php": ">=8.0.0"
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": ">=5.3.0"
             },
             "require-dev": {
-                "codeception/codeception": "~4.0",
-                "codeception/module-asserts": "^2.0",
-                "codeception/module-cli": "^2.0",
-                "codeception/module-filesystem": "^2.0",
-                "composer/composer": "~2.0",
-                "php-coveralls/php-coveralls": "~2.0",
-                "php-parallel-lint/php-parallel-lint": "^1.0.0",
-                "phpro/grumphp": "^1.8.0",
-                "sebastian/phpcpd": "^6.0",
-                "squizlabs/php_codesniffer": "^3.0"
+                "composer/composer": "~1.0 || ~2.0",
+                "phpunit/phpunit": "~4.6"
             },
-            "default-branch": true,
             "type": "composer-plugin",
             "extra": {
-                "class": "cweagans\\Composer\\Plugin\\Patches",
-                "_": "The following two lines ensure that composer-patches is loaded as early as possible.",
-                "plugin-modifies-downloads": true,
-                "plugin-modifies-install-path": true
+                "class": "cweagans\\Composer\\Patches"
             },
             "autoload": {
                 "psr-4": {
@@ -1689,15 +1619,9 @@
             "description": "Provides a way to patch Composer packages.",
             "support": {
                 "issues": "https://github.com/cweagans/composer-patches/issues",
-                "source": "https://github.com/cweagans/composer-patches/tree/main"
+                "source": "https://github.com/cweagans/composer-patches/tree/1.7.3"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/cweagans",
-                    "type": "github"
-                }
-            ],
-            "time": "2024-07-15T18:03:28+00:00"
+            "time": "2022-12-20T22:53:13+00:00"
         },
         {
             "name": "davedevelopment/stiphle",
@@ -8287,6 +8211,57 @@
             }
         },
         {
+            "name": "drupal/webform_mautic",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/webform_mautic.git",
+                "reference": "2.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/webform_mautic-2.0.0.zip",
+                "reference": "2.0.0",
+                "shasum": "b8e357abe08c97578a3bf64e6f5d3e1e5ddd1197"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10",
+                "drupal/webform": "^6"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0",
+                    "datestamp": "1658532827",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Vardot",
+                    "homepage": "https://www.drupal.org/vardot",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Rajab Natshah",
+                    "homepage": "https://www.drupal.org/user/1414312"
+                }
+            ],
+            "description": "Allows to send Webform submissions as contacts through Mautic forms.",
+            "homepage": "https://www.drupal.org/project/webform_mautic",
+            "support": {
+                "source": "http://cgit.drupalcode.org/webform_mautic",
+                "issues": "https://www.drupal.org/project/issues/webform_mautic"
+            }
+        },
+        {
             "name": "drupal/xmlsitemap",
             "version": "1.5.0",
             "source": {
@@ -8881,16 +8856,16 @@
         },
         {
             "name": "genero/kamihaya_cms",
-            "version": "1.25.0",
+            "version": "1.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/HappySeedIndia/kamihaya_cms.git",
-                "reference": "00db5df6ded65c846b5ced485aff002d8982b8ab"
+                "reference": "76260280ff7d1e595c7ceecf262aaf3b9ef5e70b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/00db5df6ded65c846b5ced485aff002d8982b8ab",
-                "reference": "00db5df6ded65c846b5ced485aff002d8982b8ab",
+                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/76260280ff7d1e595c7ceecf262aaf3b9ef5e70b",
+                "reference": "76260280ff7d1e595c7ceecf262aaf3b9ef5e70b",
                 "shasum": ""
             },
             "require": {
@@ -8958,6 +8933,7 @@
                 "drupal/views_infinite_scroll": "^2.0",
                 "drupal/viewsreference": "^2.0@beta",
                 "drupal/webform": "^6.2",
+                "drupal/webform_mautic": "^2.0",
                 "drupal/xmlsitemap": "^1.5",
                 "npm-asset/jquery": "^2.2"
             },
@@ -9022,10 +8998,10 @@
             ],
             "description": "A distribution for managing sites with less custom configurations.",
             "support": {
-                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.25.0",
+                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.26.0",
                 "issues": "https://github.com/HappySeedIndia/kamihaya_cms/issues"
             },
-            "time": "2024-09-12T06:43:51+00:00"
+            "time": "2024-09-30T03:51:21+00:00"
         },
         {
             "name": "geocoder-php/common-http",
@@ -18708,7 +18684,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "composer/installers": 20,
-        "cweagans/composer-patches": 20,
         "drush/drush": 20,
         "oomphinc/composer-installers-extender": 20
     },
