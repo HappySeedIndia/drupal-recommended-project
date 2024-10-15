@@ -17,7 +17,7 @@
         "drupal/core-recommended": "^10",
         "drush/drush": "11.x-dev",
         "oomphinc/composer-installers-extender": "dev-master",
-        "genero/kamihaya_cms": "^1.26"
+        "genero/kamihaya_cms": "^1.27"
     },
     "require-dev": {
         "acquia/coding-standards": "^2.0.0",

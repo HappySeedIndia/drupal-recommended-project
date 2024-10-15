@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "52d30569a4f6798b9180e26eaaa3555a",
+    "content-hash": "dae672f55d52b8cd0da690b904b6a7e2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -7916,6 +7916,62 @@
             }
         },
         {
+            "name": "drupal/views_flipped_table",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/views_flipped_table.git",
+                "reference": "2.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/views_flipped_table-2.0.2.zip",
+                "reference": "2.0.2",
+                "shasum": "c3764e0259c7892f0f24472820344aaea904a6a5"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10 || ^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.2",
+                    "datestamp": "1723051633",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "infojunkie",
+                    "homepage": "https://www.drupal.org/user/48424"
+                },
+                {
+                    "name": "KarlShea",
+                    "homepage": "https://www.drupal.org/user/294283"
+                },
+                {
+                    "name": "marcoka",
+                    "homepage": "https://www.drupal.org/user/255202"
+                },
+                {
+                    "name": "naught101",
+                    "homepage": "https://www.drupal.org/user/44216"
+                }
+            ],
+            "description": "Table style with rows and columns flipped.",
+            "homepage": "https://www.drupal.org/project/views_flipped_table",
+            "support": {
+                "source": "https://git.drupalcode.org/project/views_flipped_table"
+            }
+        },
+        {
             "name": "drupal/views_infinite_scroll",
             "version": "2.0.2",
             "source": {
@@ -8856,20 +8912,21 @@
         },
         {
             "name": "genero/kamihaya_cms",
-            "version": "1.26.0",
+            "version": "1.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/HappySeedIndia/kamihaya_cms.git",
-                "reference": "76260280ff7d1e595c7ceecf262aaf3b9ef5e70b"
+                "reference": "0a595d7a0ca1b35e560f612804095baeb3efacc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/76260280ff7d1e595c7ceecf262aaf3b9ef5e70b",
-                "reference": "76260280ff7d1e595c7ceecf262aaf3b9ef5e70b",
+                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/0a595d7a0ca1b35e560f612804095baeb3efacc3",
+                "reference": "0a595d7a0ca1b35e560f612804095baeb3efacc3",
                 "shasum": ""
             },
             "require": {
                 "bower-asset/spectrum": "^1.8",
+                "cweagans/composer-patches": "^1.7",
                 "drupal-ckeditor-libraries-group/colorbutton": "^4.22",
                 "drupal-ckeditor-libraries-group/panelbutton": "^4.22",
                 "drupal/acquia_dam": "^1.0",
@@ -8930,6 +8987,7 @@
                 "drupal/tb_megamenu": "^3.0@alpha",
                 "drupal/tfa": "^1.4",
                 "drupal/views_custom_cache_tag": "^1.3",
+                "drupal/views_flipped_table": "^2.0",
                 "drupal/views_infinite_scroll": "^2.0",
                 "drupal/viewsreference": "^2.0@beta",
                 "drupal/webform": "^6.2",
@@ -8987,6 +9045,11 @@
                 ],
                 "patchLevel": {
                     "drupal/core": "-p2"
+                },
+                "patches": {
+                    "drupal/views_infinite_scroll": {
+                        "https://www.drupal.org/project/views_infinite_scroll/issues/2899705": "./patches/views_infinite_scroll.patch"
+                    }
                 }
             },
             "authors": [
@@ -8998,10 +9061,10 @@
             ],
             "description": "A distribution for managing sites with less custom configurations.",
             "support": {
-                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.26.0",
+                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.27.0",
                 "issues": "https://github.com/HappySeedIndia/kamihaya_cms/issues"
             },
-            "time": "2024-09-30T03:51:21+00:00"
+            "time": "2024-10-14T06:48:08+00:00"
         },
         {
             "name": "geocoder-php/common-http",
