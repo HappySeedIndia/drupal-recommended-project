@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fce6e5d3e44b72c023e18a0ef4c6fc25",
+    "content-hash": "d855467863c060095c2d270c7cadd2ed",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -6616,26 +6616,26 @@
         },
         {
             "name": "drupal/moderation_dashboard",
-            "version": "2.1.5",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/moderation_dashboard.git",
-                "reference": "2.1.5"
+                "reference": "3.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/moderation_dashboard-2.1.5.zip",
-                "reference": "2.1.5",
-                "shasum": "5864fae086ef710cad0615341e6e6214cd2a55a6"
+                "url": "https://ftp.drupal.org/files/projects/moderation_dashboard-3.1.0.zip",
+                "reference": "3.1.0",
+                "shasum": "efe8ce67a4c78291726ef3883f3fb815dfb6f17b"
             },
             "require": {
-                "drupal/core": "^9 || ^10"
+                "drupal/core": "^10.3 || ^11"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.1.5",
-                    "datestamp": "1694008389",
+                    "version": "3.1.0",
+                    "datestamp": "1725558905",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7503,6 +7503,73 @@
             "homepage": "https://www.drupal.org/project/redirect",
             "support": {
                 "source": "https://git.drupalcode.org/project/redirect"
+            }
+        },
+        {
+            "name": "drupal/remove_http_headers",
+            "version": "2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/remove_http_headers.git",
+                "reference": "2.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/remove_http_headers-2.1.2.zip",
+                "reference": "2.1.2",
+                "shasum": "1dde47df9ed6565c817af9eaaf8fd4dcc4eaf170"
+            },
+            "require": {
+                "drupal/core": "^10.3 || ^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.1.2",
+                    "datestamp": "1728551290",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Orlando Thöny",
+                    "homepage": "https://www.drupal.org/user/291091",
+                    "email": "orlando.thoeny@gmail.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "grevil",
+                    "homepage": "https://www.drupal.org/user/3668491"
+                },
+                {
+                    "name": "guilherme-lima-almeida",
+                    "homepage": "https://www.drupal.org/user/3636010"
+                },
+                {
+                    "name": "marco-s",
+                    "homepage": "https://www.drupal.org/user/3396620"
+                },
+                {
+                    "name": "rdamjanov",
+                    "homepage": "https://www.drupal.org/user/913518"
+                }
+            ],
+            "description": "Removes configured HTTP Response headers.",
+            "homepage": "https://drupal.org/project/remove_http_headers",
+            "keywords": [
+                "Drupal",
+                "HTTP headers",
+                "Security"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/remove_http_headers"
             }
         },
         {
@@ -10034,16 +10101,16 @@
         },
         {
             "name": "genero/kamihaya_cms",
-            "version": "1.36.0",
+            "version": "1.37.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/HappySeedIndia/kamihaya_cms.git",
-                "reference": "a657dcf8e0ae840c3fc6d319303578d734fef03e"
+                "reference": "1e8863644ac53c68f7cf513ba6e4c1ff73c2b281"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/a657dcf8e0ae840c3fc6d319303578d734fef03e",
-                "reference": "a657dcf8e0ae840c3fc6d319303578d734fef03e",
+                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/1e8863644ac53c68f7cf513ba6e4c1ff73c2b281",
+                "reference": "1e8863644ac53c68f7cf513ba6e4c1ff73c2b281",
                 "shasum": ""
             },
             "require": {
@@ -10094,7 +10161,7 @@
                 "drupal/menu_link_attributes": "^1.3",
                 "drupal/metatag": "^2.1",
                 "drupal/miniorange_saml": "^3.0",
-                "drupal/moderation_dashboard": "^2.1",
+                "drupal/moderation_dashboard": "^3.1",
                 "drupal/new_relic_rpm": "^2.1",
                 "drupal/open_ai_metadata": "^2.0",
                 "drupal/openai": "^1.0@beta",
@@ -10105,6 +10172,7 @@
                 "drupal/recaptcha": "^3.2",
                 "drupal/recreate_block_content": "^3.0",
                 "drupal/redirect": "^1.9",
+                "drupal/remove_http_headers": "^2.1",
                 "drupal/responsive_preview": "^2.1",
                 "drupal/scheduled_transitions": "^2.7",
                 "drupal/scheduler": "^2.1",
@@ -10133,6 +10201,9 @@
                 "drupal/webform_mautic": "^2.0",
                 "drupal/webp": "^1.0@RC",
                 "drupal/xmlsitemap": "^1.5",
+                "npm-asset/chart.js": "^4.4",
+                "npm-asset/chartjs-adapter-date-fns": "^3.0",
+                "npm-asset/chartjs-plugin-datalabels": "^2.0",
                 "npm-asset/jquery": "^2.2"
             },
             "type": "drupal-profile",
@@ -10196,7 +10267,7 @@
                         "https://www.drupal.org/project/drupal/issues/1874838": "https://www.drupal.org/files/issues/2021-11-11/1874838-26.patch"
                     },
                     "drupal/expand_collapse_formatter": {
-                        "KD-465": "https://raw.githubusercontent.com/HappySeedIndia/kamihaya_cms/refs/heads/KD-465/patches/expand_collapse_formatter.patch"
+                        "KD-465 and KD-521": "https://raw.githubusercontent.com/HappySeedIndia/kamihaya_cms/refs/heads/master/patches/expand_collapse_formatter.patch"
                     },
                     "drupal/views_bulk_operations": {
                         "https://www.drupal.org/project/views_bulk_operations/issues/3479950": "https://www.drupal.org/files/issues/2024-10-10/3479950-views_bulk_operations-fixes-label-message-override-config-translations-2.patch"
@@ -10215,10 +10286,10 @@
             ],
             "description": "A distribution for managing sites with less custom configurations.",
             "support": {
-                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.36.0",
+                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.37.0",
                 "issues": "https://github.com/HappySeedIndia/kamihaya_cms/issues"
             },
-            "time": "2025-03-04T06:52:02+00:00"
+            "time": "2025-03-18T05:46:36+00:00"
         },
         {
             "name": "geocoder-php/common-http",
@@ -12516,11 +12587,62 @@
             "time": "2024-10-08T18:51:32+00:00"
         },
         {
+            "name": "npm-asset/chart.js",
+            "version": "4.4.8",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/chart.js/-/chart.js-4.4.8.tgz"
+            },
+            "require": {
+                "npm-asset/kurkle--color": ">=0.3.0,<0.4.0"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/chartjs-adapter-date-fns",
+            "version": "3.0.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/chartjs-adapter-date-fns/-/chartjs-adapter-date-fns-3.0.0.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/chartjs-plugin-datalabels",
+            "version": "2.2.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/chartjs-plugin-datalabels/-/chartjs-plugin-datalabels-2.2.0.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
             "name": "npm-asset/jquery",
             "version": "2.2.4",
             "dist": {
                 "type": "tar",
                 "url": "https://registry.npmjs.org/jquery/-/jquery-2.2.4.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/kurkle--color",
+            "version": "0.3.2",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/@kurkle/color/-/color-0.3.2.tgz"
             },
             "type": "npm-asset",
             "license": [
