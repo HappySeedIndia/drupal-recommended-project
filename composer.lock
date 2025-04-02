@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d855467863c060095c2d270c7cadd2ed",
+    "content-hash": "f435410968b3634b0c9a0425c8ba6978",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -10101,16 +10101,16 @@
         },
         {
             "name": "genero/kamihaya_cms",
-            "version": "1.37.0",
+            "version": "1.38.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/HappySeedIndia/kamihaya_cms.git",
-                "reference": "1e8863644ac53c68f7cf513ba6e4c1ff73c2b281"
+                "reference": "75d4e4bb207321df39dc09f1a69cea45f8a70e40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/1e8863644ac53c68f7cf513ba6e4c1ff73c2b281",
-                "reference": "1e8863644ac53c68f7cf513ba6e4c1ff73c2b281",
+                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/75d4e4bb207321df39dc09f1a69cea45f8a70e40",
+                "reference": "75d4e4bb207321df39dc09f1a69cea45f8a70e40",
                 "shasum": ""
             },
             "require": {
@@ -10264,7 +10264,8 @@
                     "drupal/core": {
                         "https://www.drupal.org/project/drupal/issues/2842525": "https://www.drupal.org/files/issues/2024-09-18/2842525-159.patch",
                         "https://www.drupal.org/project/drupal/issues/3273068": "https://www.drupal.org/files/issues/2024-12-30/3273068-d11-with-test.patch",
-                        "https://www.drupal.org/project/drupal/issues/1874838": "https://www.drupal.org/files/issues/2021-11-11/1874838-26.patch"
+                        "https://www.drupal.org/project/drupal/issues/1874838": "https://www.drupal.org/files/issues/2021-11-11/1874838-26.patch",
+                        "https://www.drupal.org/project/drupal/issues/3359497": "https://www.drupal.org/files/issues/2023-10-07/fix-license-missing-url.patch"
                     },
                     "drupal/expand_collapse_formatter": {
                         "KD-465 and KD-521": "https://raw.githubusercontent.com/HappySeedIndia/kamihaya_cms/refs/heads/master/patches/expand_collapse_formatter.patch"
@@ -10286,10 +10287,10 @@
             ],
             "description": "A distribution for managing sites with less custom configurations.",
             "support": {
-                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.37.0",
+                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.38.0",
                 "issues": "https://github.com/HappySeedIndia/kamihaya_cms/issues"
             },
-            "time": "2025-03-18T05:46:36+00:00"
+            "time": "2025-04-02T03:23:20+00:00"
         },
         {
             "name": "geocoder-php/common-http",
