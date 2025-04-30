@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "46430b9b186aca579122d42b9bd39292",
+    "content-hash": "9db6622bca3d0507d2b9dbf31c5ae6da",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -7203,6 +7203,65 @@
             }
         },
         {
+            "name": "drupal/queue_mail",
+            "version": "1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/queue_mail.git",
+                "reference": "8.x-1.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/queue_mail-8.x-1.7.zip",
+                "reference": "8.x-1.7",
+                "shasum": "ae0486dcb8b33b511998f453bb392babf16767b6"
+            },
+            "require": {
+                "drupal/core": "^9.4 || ^10.0 || ^11.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.7",
+                    "datestamp": "1727506370",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Evgenii Nikitin (sinn)",
+                    "homepage": "https://www.drupal.org/u/sinn",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Steven Jones",
+                    "homepage": "https://www.drupal.org/user/99644",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "steven jones",
+                    "homepage": "https://www.drupal.org/user/99644"
+                },
+                {
+                    "name": "wafaa",
+                    "homepage": "https://www.drupal.org/user/50133"
+                }
+            ],
+            "description": "Queues all mail sent by your Drupal site so that it is sent via cron using the Drupal Queue API.",
+            "homepage": "http://drupal.org/project/queue_mail",
+            "support": {
+                "source": "https://git.drupalcode.org/project/queue_mail",
+                "issues": "https://www.drupal.org/project/issues/queue_mail"
+            }
+        },
+        {
             "name": "drupal/quick_node_clone",
             "version": "1.19.0",
             "source": {
@@ -10094,16 +10153,16 @@
         },
         {
             "name": "genero/kamihaya_cms",
-            "version": "1.39.0",
+            "version": "1.40.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/HappySeedIndia/kamihaya_cms.git",
-                "reference": "f6e8ab181d89ff015fbeb67923fafdf3f6e75e31"
+                "reference": "7d5cc4e1b25aa8ae6620242973c948085ced599a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/f6e8ab181d89ff015fbeb67923fafdf3f6e75e31",
-                "reference": "f6e8ab181d89ff015fbeb67923fafdf3f6e75e31",
+                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/7d5cc4e1b25aa8ae6620242973c948085ced599a",
+                "reference": "7d5cc4e1b25aa8ae6620242973c948085ced599a",
                 "shasum": ""
             },
             "require": {
@@ -10161,6 +10220,7 @@
                 "drupal/paragraphs": "^1.15",
                 "drupal/password_policy": "^4.0",
                 "drupal/pathauto": "^1.11",
+                "drupal/queue_mail": "^1.7",
                 "drupal/quick_node_clone": "^1.16",
                 "drupal/recaptcha": "^3.2",
                 "drupal/recreate_block_content": "^3.0",
@@ -10264,7 +10324,8 @@
                         "KD-465 and KD-521": "https://raw.githubusercontent.com/HappySeedIndia/kamihaya_cms/refs/heads/master/patches/expand_collapse_formatter.patch"
                     },
                     "drupal/views_bulk_operations": {
-                        "https://www.drupal.org/project/views_bulk_operations/issues/3479950": "https://www.drupal.org/files/issues/2024-10-10/3479950-views_bulk_operations-fixes-label-message-override-config-translations-2.patch"
+                        "https://www.drupal.org/project/views_bulk_operations/issues/3479950": "https://www.drupal.org/files/issues/2024-10-10/3479950-views_bulk_operations-fixes-label-message-override-config-translations-2.patch",
+                        "https://www.drupal.org/project/views_bulk_operations/issues/3199534": "https://raw.githubusercontent.com/HappySeedIndia/kamihaya_cms/refs/heads/KD-540/patches/view_bulk_operations.patch"
                     },
                     "drupal/feeds": {
                         "KD-491: Fix default value issue on translation during feed import": "https://raw.githubusercontent.com/HappySeedIndia/kamihaya_cms/refs/heads/develop/patches/feeds_fix_default_value_on_translation.patch"
@@ -10280,10 +10341,10 @@
             ],
             "description": "A distribution for managing sites with less custom configurations.",
             "support": {
-                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.39.0",
+                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.40.0",
                 "issues": "https://github.com/HappySeedIndia/kamihaya_cms/issues"
             },
-            "time": "2025-04-16T04:32:34+00:00"
+            "time": "2025-04-28T04:17:56+00:00"
         },
         {
             "name": "geocoder-php/common-http",

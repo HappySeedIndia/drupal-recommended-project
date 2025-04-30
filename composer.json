@@ -16,7 +16,7 @@
         "drupal/core-composer-scaffold": "^10",
         "drupal/core-recommended": "^10",
         "oomphinc/composer-installers-extender": "dev-master",
-        "genero/kamihaya_cms": "^1.39",
+        "genero/kamihaya_cms": "^1.40",
         "drush/drush": "^13.0"
     },
     "require-dev": {
