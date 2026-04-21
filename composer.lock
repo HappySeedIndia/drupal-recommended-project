@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "04e8f46af50e7641e5770c0348d2cbc9",
+    "content-hash": "74aa70364cc0f7eb3afff5d8fd9dd6e9",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3992,20 +3992,20 @@
         },
         {
             "name": "drupal/content_access",
-            "version": "2.0.0",
+            "version": "2.1.0-rc3",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/content_access.git",
-                "reference": "2.0.0"
+                "reference": "2.1.0-rc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/content_access-2.0.0.zip",
-                "reference": "2.0.0",
-                "shasum": "01be4c9612d31b77f6117297b0bacaf78aeffd81"
+                "url": "https://ftp.drupal.org/files/projects/content_access-2.1.0-rc3.zip",
+                "reference": "2.1.0-rc3",
+                "shasum": "837517e778470de28c5f00d7c412d769b1b85877"
             },
             "require": {
-                "drupal/core": "^9.4 || ^10"
+                "drupal/core": "^9.4 || ^10 || ^11"
             },
             "require-dev": {
                 "drupal/acl": "~1.0 || ~2.0"
@@ -4013,8 +4013,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.0.0",
-                    "datestamp": "1694013168",
+                    "version": "2.1.0-rc3",
+                    "datestamp": "1773842128",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -4033,6 +4033,10 @@
                 {
                     "name": "gisle",
                     "homepage": "https://www.drupal.org/user/409554"
+                },
+                {
+                    "name": "quadrexdev",
+                    "homepage": "https://www.drupal.org/user/3683807"
                 },
                 {
                     "name": "steven jones",
@@ -11081,16 +11085,16 @@
         },
         {
             "name": "genero/kamihaya_cms",
-            "version": "1.62.0",
+            "version": "1.63.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/HappySeedIndia/kamihaya_cms.git",
-                "reference": "ad78ee75c977e34797f5c2def7acd3e25dc93e3c"
+                "reference": "12c43c8691d23a0ce0ef9a82c568b40a273abca8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/ad78ee75c977e34797f5c2def7acd3e25dc93e3c",
-                "reference": "ad78ee75c977e34797f5c2def7acd3e25dc93e3c",
+                "url": "https://api.github.com/repos/HappySeedIndia/kamihaya_cms/zipball/12c43c8691d23a0ce0ef9a82c568b40a273abca8",
+                "reference": "12c43c8691d23a0ce0ef9a82c568b40a273abca8",
                 "shasum": ""
             },
             "require": {
@@ -11118,7 +11122,7 @@
                 "drupal/colorbox": "^2.1",
                 "drupal/colorbutton": "^1.5",
                 "drupal/commerce": "^2.40",
-                "drupal/content_access": "^2.0",
+                "drupal/content_access": "^2.1@RC",
                 "drupal/custom_pub": "^1.0",
                 "drupal/default_content": "^2.0@alpha",
                 "drupal/diff": "^1.8",
@@ -11277,10 +11281,10 @@
             ],
             "description": "A distribution for managing sites with less custom configurations.",
             "support": {
-                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.62.0",
+                "source": "https://github.com/HappySeedIndia/kamihaya_cms/tree/1.63.0",
                 "issues": "https://github.com/HappySeedIndia/kamihaya_cms/issues"
             },
-            "time": "2026-04-06T08:17:01+00:00"
+            "time": "2026-04-21T11:38:01+00:00"
         },
         {
             "name": "geocoder-php/common-http",
